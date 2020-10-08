@@ -1,11 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Woodies</title>
 </head>
 <body>
-    
+  <!-- header start -->
+  <header class="header">
+    <div class="header__rectangle-rose"></div>
+    <div class="header__table"></div>
+    <div class="header-menu">
+      <a href="#!" class="logo logo_hover">
+        <img src="./images/logo.svg" alt="logo" class="logo__img">
+      </a>
+      <nav class="nav">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="#!" class="nav__link nav__link_active nav__link_hover" title="Home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#!" class="nav__link nav__link_hover" title="About Us">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#!" class="nav__link nav__link_hover" title="How it works">How it works</a>
+          </li>
+          <li class="nav__item">
+            <a href="#!" class="nav__link nav__link_hover" title="Categories">Categories</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__content">
+      <p class="header__text">
+        Are you looking for <span class="header__text_focus">woodden furniture</span> for your place?
+      </p>
+      <h1 class="header__title">This is the Right Place</h1>
+      <a href="#!" class="header__link header__link_hover">
+        Explore Furniture
+      </a>
+    </div>
+
+  </header>
+  <!-- header end -->
+
+  <main class="main">
+    <!-- about us start -->
+    <section class="about-us">
+      <div class="about-us__title-wrap">
+        <h2 class="about-us__title">Who we are</h2>
+        <p class="about-us__description">ABOUT US</p>
+      </div>
+      <ul class="about-us__items">
+        <li class="about-us__item card">
+          <img class="card__image" src="./images/about_us_pot.png" alt="pot">
+          <div class="card__content card__text_position_right">
+            <h3 class="card__title">
+              <span class="card__title card__title_focus card__title_upercase">woodies</span> is the home <span class="card__title_focus">of modern wooden furniture</span>
+            </h3>
+            <p class="card__text">
+              the answer to your need for furniture with shapes, sizes and colors.
+            </p>
+          </div>
+        </li>
+        <li class="about-us__item card">
+          <div class="card__content card__text_position_left">
+            <h3 class="card__title">
+              Customized furniture <span class="card__title card__title_focus">made just for you</span>
+            </h3>
+            <p class="card__text">
+              Get it easy to adjust furniture to the shape and size of your dwelling or business.
+            </p>
+          </div>
+          <img class="card__image" src="./images/spoon.png" alt="pot">
+        </li>
+      </ul>
+    </section>
+    <!-- about us end -->
+
+    <!-- how work start -->
+    <section class="how-work">
+      <div class="how-work__title-wrap">
+        <h2 class="how-work__title">How to custom</h2>
+        <p class="how-work__description">HOW IT WORKS</p>
+      </div>
+      <ul class="how-work__items">
+        <li class="how-work__item">
+          <p class="how-work__step">1</p>
+          <img src="./images/shop.svg" class="how-work__step-img" alt="shop">
+          <p class="how-work__text">Choose Design</p>
+        </li>
+        <li class="how-work__item">
+          <p class="how-work__step how-work__step_second">2</p>
+          <img src="./images/ruler.svg" class="how-work__step-img" alt="ruler">
+          <p class="how-work__text">Area measuring</p>
+        </li>
+        <li class="how-work__item">
+          <p class="how-work__step how-work__step_third">3</p>
+          <img src="./images/cost.png" class="how-work__step-img" alt="cost">
+          <p class="how-work__text">Budgeting</p>
+        </li>
+        <li class="how-work__item">
+          <p class="how-work__step how-work__step_fourth">4</p>
+          <img src="./images/carpenter.svg" class="how-work__step-img" alt="carpenter">
+          <p class="how-work__text">Production</p>
+        </li>
+      </ul>
+    </section>
+    <!-- how work end -->
+
+    <!-- categories start -->
+    <section class="categories">
+      <div class="categories__title-wrap">
+        <h2 class="categories__title">What we have</h2>
+        <p class="categories__description">CATEGORIES</p>
+      </div>
+      <ul class="categories__items">
+        <li class="categories__item categories__item_background_red">
+          <h3 class="categories__title">Desk</h3>
+          <img class="categories__img" src="./images/categories_table.png" alt="стол">
+          <a href="#!" class="categories__link categories__link_hover">Shop Now</a>
+        </li>
+        <li class="categories__item categories__item_background_yellow">
+          <h3 class="categories__title">Chair</h3>
+          <img class="categories__img" src="./images/categories_chair.png" alt="chair">
+          <a href="#!" class="categories__link categories__link_hover">Shop Now</a>
+        </li>
+        <li class="categories__item categories__item_background_blue">
+          <h3 class="categories__title">Kitchenware</h3>
+          <img class="categories__img" src="./images/categories_cup.png" alt="cup">
+          <a href="#!" class="categories__link categories__link_hover">Shop Now</a>
+        </li>
+        <li class="categories__item categories__item_background_red">
+          <h3 class="categories__title">Book Shelf</h3>
+          <img class="categories__img" src="./images/categories_shelf.png" alt="shelf">
+          <a href="#!" class="categories__link categories__link_hover">Shop Now</a>
+        </li>
+        <li class="categories__item categories__item_background_yellow">
+          <h3 class="categories__title">Electronics</h3>
+          <img class="categories__img" src="./images/categories_radio.png" alt="radio">
+          <a href="#!" class="categories__link categories__link_hover">Shop Now</a>
+        </li>
+      </ul>
+    </section>
+    <!-- categories end -->
+  </main>
+
+  <!-- footer start -->
+  <footer class="footer">
+    <div class="footer__nav">
+      <div class="footer__info">
+        <a href="#!" class="logo logo_hover footer__logo">
+          <img src="./images/logo.svg" alt="logo" class="logo__img">
+        </a>
+        <p class="footer__phone">
+          (012) 8967453
+        </p>
+        <p class="footer__email">
+          test@email.com
+        </p>
+      </div>
+      <nav class="footer__product navigation">
+        <h2 class="navigation__title">Product</h2>
+        <ul class="navigation__items">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link navigation__link_hover">Furnitures</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#!" class="navigation__link navigation__link_hover">Packages</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#!" class="navigation__link navigation__link_hover">Services</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="footer__resources navigation">
+        <h2 class="navigation__title">Resources</h2>
+        <ul class="navigation__items">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link navigation__link_hover">Blog</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#!" class="navigation__link navigation__link_hover">FAQs</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#!" class="navigation__link navigation__link_hover">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="footer__company navigation">
+        <h2 class="navigation__title">Company</h2>
+        <ul class="navigation__items">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link navigation__link_hover">About Us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#!" class="navigation__link navigation__link_hover">Jobs</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#!" class="navigation__link navigation__link_hover">Our Team</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="footer__social navigation">
+        <h2 class="navigation__title">Follow Us</h2>
+        <ul class="navigation__items">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link navigation__link_hover">Facebook</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#!" class="navigation__link navigation__link_hover">Instagram</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#!" class="navigation__link navigation__link_hover">Twitter</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+    <img class="footer__img" src="./images/pexels-photo-509922 1.png" alt="мебель">
+    <p class="copyright">&copy; 2020 woodies</p>
+  </footer>
+  <!-- footer end -->
+
 </body>
 </html>
